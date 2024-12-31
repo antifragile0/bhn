@@ -20,4 +20,3 @@ proxies:
     path: /vmess
     headers:
       Host: support.zoom.us.us5-california.aixxycode.id
-
