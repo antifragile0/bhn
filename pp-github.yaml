@@ -1,0 +1,380 @@
+# CONTOH FORMAT
+# https://blog.vpngame.com/openwrt/kumpulan-daftar-format-akun-untuk-openclash/
+proxies:
+#=============================================================#
+# WLC1 SUPPORT.ZOOM.US
+#=============================================================#
+
+- name: '🇮🇩 🇸🇬 HERZA [WLC1]'
+  server: support.zoom.us
+  port: 443
+  type: trojan
+  password: 5a10b6c0-86d0-11ef-8ffd-1577c1651679
+  udp: true
+  skip-cert-verify: true
+  network: ws
+  sni: support.zoom.us.11-lowh.rimuru.biz.id
+  ws-opts:
+    path: /welcome
+    headers:
+      Host: support.zoom.us.11-lowh.rimuru.biz.id
+- name: '🇮🇩 Sanggoro TJ [WLC1]'
+  server: support.zoom.us
+  port: 443
+  type: trojan
+  password: 746ea070-86cf-11ef-8573-1577c1651679
+  udp: true
+  skip-cert-verify: true
+  network: ws
+  sni: support.zoom.us.4-lowh.rimuru.biz.id
+  ws-opts:
+    path: /welcome
+    headers:
+      Host: support.zoom.us.4-lowh.rimuru.biz.id
+- name: '🇮🇩 Sanggoro [WLC1]'
+  server: support.zoom.us
+  port: 443
+  type: vmess
+  uuid: 82f742a0-86ce-11ef-929c-1577c1651679
+  cipher: auto
+  tls: true
+  udp: true
+  skip-cert-verify: true
+  network: ws
+  servername: support.zoom.us.5-lowh.rimuru.biz.id
+  alterId: 0
+  ws-opts:
+    path: /hello
+    headers:
+      Host: support.zoom.us.5-lowh.rimuru.biz.id
+- name: '🇮🇩 HSP [WLC1]'
+  server: support.zoom.us
+  port: 443
+  type: vmess
+  uuid: ca65c100-86cc-11ef-a02b-1577c1651679
+  cipher: auto
+  tls: true
+  udp: true
+  skip-cert-verify: true
+  network: ws
+  servername: support.zoom.us.hsp1.rimuru.biz.id
+  alterId: 0
+  ws-opts:
+    path: /hello
+    headers:
+      Host: support.zoom.us.hsp1.rimuru.biz.id
+- name: '🇸🇬 SG HE [WLC1]'
+  server: support.zoom.us
+  port: 443
+  type: vmess
+  uuid: 2f3bd2d0-86d0-11ef-b8bc-1577c1651679
+  cipher: auto
+  tls: true
+  udp: true
+  skip-cert-verify: true
+  network: ws
+  servername: support.zoom.us.10-lowh.rimuru.biz.id
+  alterId: 0
+  ws-opts:
+    path: /hello
+    headers:
+      Host: support.zoom.us.10-lowh.rimuru.biz.id
+- name: '🇸🇬 SG GS [WLC1]'
+  server: support.zoom.us
+  port: 443
+  type: vmess
+  uuid: 78e51090-86d0-11ef-95dc-1577c1651679
+  cipher: auto
+  tls: true
+  udp: true
+  skip-cert-verify: true
+  network: ws
+  servername: support.zoom.us.2-htmlcdn.rimuru.biz.id
+  alterId: 0
+  ws-opts:
+    path: /hello
+    headers:
+      Host: support.zoom.us.2-htmlcdn.rimuru.biz.id
+- name: '🇮🇩 ID16 NATANVPN [WLC1]'
+  server: support.zoom.us
+  port: 443
+  type: trojan
+  password: 0626dbca-5600-4f15-81b5-db00d1b07759
+  skip-cert-verify: true
+  sni: zoomgov.natanvpn.store
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: id16.natanvpn.store
+
+
+#=============================================================#
+# WLC2 SUPPORT.ZOOM.US
+#=============================================================#
+- name: '🇮🇩 🇸🇬 HERZA [WLC2]'
+  server: support.zoom.us
+  port: 443
+  type: trojan
+  password: 5a10b6c0-86d0-11ef-8ffd-1577c1651679
+  udp: true
+  skip-cert-verify: true
+  network: ws
+  sni: support.zoom.us.wc.akuwibu.biz.id
+  ws-opts:
+    path: /11.lowh.net/welcome
+    headers:
+      Host: support.zoom.us.wc.akuwibu.biz.id
+- name: '🇮🇩 Sanggoro TJ [WLC2]'
+  server: support.zoom.us
+  port: 443
+  type: trojan
+  password: 746ea070-86cf-11ef-8573-1577c1651679
+  udp: true
+  skip-cert-verify: true
+  network: ws
+  sni: support.zoom.us.wc.akuwibu.biz.id
+  ws-opts:
+    path: /4.lowh.net/welcome
+    headers:
+      Host: support.zoom.us.wc.akuwibu.biz.id
+- name: '🇮🇩 Sanggoro [WLC2]'
+  server: support.zoom.us
+  port: 443
+  type: vmess
+  uuid: 82f742a0-86ce-11ef-929c-1577c1651679
+  cipher: auto
+  tls: true
+  udp: true
+  skip-cert-verify: true
+  network: ws
+  servername: support.zoom.us.wc.akuwibu.biz.id
+  alterId: 0
+  ws-opts:
+    path: /5.lowh.net/hello
+    headers:
+      Host: support.zoom.us.wc.akuwibu.biz.id
+- name: '🇮🇩 HSP [WLC2]'
+  server: support.zoom.us
+  port: 443
+  type: vmess
+  uuid: ca65c100-86cc-11ef-a02b-1577c1651679
+  cipher: auto
+  tls: true
+  udp: true
+  skip-cert-verify: true
+  network: ws
+  servername: support.zoom.us.wc.akuwibu.biz.id
+  alterId: 0
+  ws-opts:
+    path: /hsp1.htmlcdn.net/hello
+    headers:
+      Host: support.zoom.us.wc.akuwibu.biz.id
+- name: '🇸🇬 SG HE [WLC2]'
+  server: support.zoom.us
+  port: 443
+  type: vmess
+  uuid: 2f3bd2d0-86d0-11ef-b8bc-1577c1651679
+  cipher: auto
+  tls: true
+  udp: true
+  skip-cert-verify: true
+  network: ws
+  servername: support.zoom.us.wc.akuwibu.biz.id
+  alterId: 0
+  ws-opts:
+    path: /10.lowh.net/hello
+    headers:
+      Host: support.zoom.us.wc.akuwibu.biz.id
+- name: '🇸🇬 SG GS [WLC2]'
+  server: support.zoom.us
+  port: 443
+  type: vmess
+  uuid: 78e51090-86d0-11ef-95dc-1577c1651679
+  cipher: auto
+  tls: true
+  udp: true
+  skip-cert-verify: true
+  network: ws
+  servername: support.zoom.us.wc.akuwibu.biz.id
+  alterId: 0
+  ws-opts:
+    path: /2.htmlcdn.net/hello
+    headers:
+      Host: support.zoom.us.wc.akuwibu.biz.id
+#=============================================================#
+# LIVE.IFLIX.COM
+#=============================================================#
+- name: '🇮🇩 🇸🇬 HERZA [SNI]'
+  server: 11.lowh.net
+  port: 443
+  type: trojan
+  password: 5a10b6c0-86d0-11ef-8ffd-1577c1651679
+  udp: true
+  skip-cert-verify: true
+  network: ws
+  sni: live.iflix.com
+  ws-opts:
+    path: /welcome
+    headers:
+      Host: 11.lowh.net
+- name: '🇮🇩 Sanggoro TJ [SNI]'
+  server: 4.lowh.net
+  port: 443
+  type: trojan
+  password: 746ea070-86cf-11ef-8573-1577c1651679
+  udp: true
+  skip-cert-verify: true
+  network: ws
+  sni: live.iflix.com
+  ws-opts:
+    path: /welcome
+    headers:
+      Host: 4.lowh.net
+- name: '🇮🇩 Sanggoro [SNI]'
+  server: 5.lowh.net
+  port: 443
+  type: vmess
+  uuid: 82f742a0-86ce-11ef-929c-1577c1651679
+  cipher: auto
+  tls: true
+  udp: true
+  skip-cert-verify: true
+  network: ws
+  servername: live.iflix.com
+  alterId: 0
+  ws-opts:
+    path: /hello
+    headers:
+      Host: 5.lowh.net
+- name: '🇮🇩 HSP [SNI]'
+  server: hsp1.htmlcdn.net
+  port: 443
+  type: vmess
+  uuid: ca65c100-86cc-11ef-a02b-1577c1651679
+  cipher: auto
+  tls: true
+  udp: true
+  skip-cert-verify: true
+  network: ws
+  servername: live.iflix.com
+  alterId: 0
+  ws-opts:
+    path: /hello
+    headers:
+      Host: hsp1.htmlcdn.net
+- name: '🇸🇬 SG HE [SNI]'
+  server: 10.lowh.net
+  port: 443
+  type: vmess
+  uuid: 2f3bd2d0-86d0-11ef-b8bc-1577c1651679
+  cipher: auto
+  tls: true
+  udp: true
+  skip-cert-verify: true
+  network: ws
+  servername: live.iflix.com
+  alterId: 0
+  ws-opts:
+    path: /hello
+    headers:
+      Host: 10.lowh.net
+- name: '🇸🇬 SG GS [SNI]'
+  server: 2.htmlcdn.net
+  port: 443
+  type: vmess
+  uuid: 78e51090-86d0-11ef-95dc-1577c1651679
+  cipher: auto
+  tls: true
+  udp: true
+  skip-cert-verify: true
+  network: ws
+  servername: live.iflix.com
+  alterId: 0
+  ws-opts:
+    path: /hello
+    headers:
+      Host: 2.htmlcdn.net
+
+#=============================================================#
+- name: '🇺🇸 [VMess - ws] TLS '
+  server: support.zoom.us
+  port: 443
+  type: vmess
+  uuid: 343388c3-56f7-4d29-b400-6f2d292b60e9
+  cipher: auto
+  tls: true
+  udp: true
+  skip-cert-verify: true
+  network: ws
+  servername: support.zoom.us.us5-california.aixxycode.id
+  alterId: 0
+  ws-opts:
+    path: /vmess
+    headers:
+      Host: support.zoom.us.us5-california.aixxycode.id
+- client-fingerprint: chrome
+  name: "🇮🇩 INCAPSULA NAUTICA"
+  network: ws
+  port: "443"
+  server: support.zoom.us
+  servername: support.zoom.us.nautica.foolvpn.me
+  tls: true
+  type: vless
+  udp: true
+  uuid: e358f857-275f-426b-8bdb-bbb9510a6446
+  ws-opts:
+    headers:
+        Host: support.zoom.us.nautica.foolvpn.me
+        User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36
+    path: /45.60.186.91-443
+  xudp: true
+
+- name: 🇮🇩 (tp1.bmkg.xyz)+DE+Incapsula
+  server: support.zoom.us
+  port: 443
+  type: vless
+  uuid: 6b94f48c-c451-434a-9eb6-64874b7c326d
+  cipher: auto
+  tls: true
+  udp: true
+  skip-cert-verify: true
+  network: ws
+  servername: support.zoom.us.tp1.bmkg.xyz
+  ws-opts:
+    path: /45.60.186.91-443
+    headers:
+      Host: support.zoom.us.tp1.bmkg.xyz
+
+- name: 🇮🇩 Incapsula notx15
+  server: support.zoom.us
+  port: 443
+  type: vless
+  uuid: 774ecea5-ed18-48ff-b7df-3e17522e56f9
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  servername: support.zoom.us.wilo.luckystup-id.xyz
+  ws-opts:
+    path: /45.60.186.91-443
+    headers:
+      Host: support.zoom.us.wilo.luckystup-id.xyz
+  udp: true
+
+- name: 🇮🇩 INCAPSULA NOIR
+  server: support.zoom.us.
+  port: 443
+  type: vless
+  uuid: 2d7edd25-2b2b-43a5-8b41-7bf5a9f0971a
+  cipher: auto
+  tls: true
+  udp: true
+  skip-cert-verify: true
+  network: ws
+  servername: support.zoom.us.sub.vltr.us.kg
+  ws-opts:
+    path: /vl=45.60.186.91=443
+    headers:
+      Host: support.zoom.us.sub.vltr.us.kg
+#=============================================================#
